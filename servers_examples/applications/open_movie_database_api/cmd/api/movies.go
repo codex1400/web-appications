@@ -18,7 +18,7 @@ func (app *application) showMovieHandler(w http.ResponseWriter, r *http.Request)
 		return
 	}
 	movie := data.Movie{
-		Id:        id,
+		ID:        id,
 		CreatedAt: time.Now(),
 		Title:     "Casablanca",
 		Runtime:   102,
